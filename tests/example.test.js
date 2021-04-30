@@ -11,6 +11,8 @@ it('should launch the browser', async () => {
     await page.waitForTimeout(3000)
     // await page.waitForSelector('header')
     await page.waitForSelector('h1')
+    await page.waitForSelector('h1')
+
     await browser.close();
 })
 })
