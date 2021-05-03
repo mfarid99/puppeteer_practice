@@ -5,6 +5,7 @@ var pageExample = "http://www.example.com/"
 var google = "https://www.google.com/"
 var devExpress = "https://devexpress.github.io/testcafe/example/"
 var messageA = "Howdy, my name is Moe"
+var messageB = "Message 2"
 
 describe('My First Puppeteer Test', ()=> {
   it('should launch the browser', async function () {
